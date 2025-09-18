@@ -88,14 +88,19 @@ int main() {
 
         switch (opcion) {
             case 1: 
-				recorridoFilas(); break;
+				recorridoFilas(); 
+				break;
             case 2: 
-				recorridoColumnasInverso(); break;
+				recorridoColumnasInverso(); 
+				break;
             case 3: 
-				recorridoDiagonal(); break;
+				recorridoDiagonal(); 
+				break;
             case 4: 
-				printf("Fin del programa.\n"); break;
-            default: printf("Opcion invalida.\n");
+				printf("Fin del programa.\n"); 
+				break;
+            default: 
+				printf("Opcion invalida.\n");
         }
     } while (opcion != 4);
 

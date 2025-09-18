@@ -22,13 +22,11 @@ int main() {
         nombres[i] = (char *) malloc(MAX_NOMBRE * sizeof(char));
     }
 
-    // Reservar memoria para datos numéricos
     datos = (int **) malloc(n * sizeof(int *));
     for (i = 0; i < n; i++) {
         datos[i] = (int *) malloc(2 * sizeof(int)); 
     }
 
-    // Captura de datos
     for (i = 0; i < n; i++) {
         printf("\nAlumno %d\n", i + 1);
 
